@@ -35,10 +35,6 @@
     <!-- inquiries fragment-->
     <string name="inquiries_blank">There seems to be no inquiry for this product.</string>
 
-    <!-- card view layout-->
-    <string name="unionbank">UnionBank</string>
-    <string name="error_no_internet">Cannot connect, please try again later.</string>
-
     <!-- animation likes -->
     <plurals name="likes_count">
         <item quantity="one">%d recommend</item>
