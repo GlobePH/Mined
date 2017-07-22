@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "883431732206",
+    "firebase_url": "https://wormbizz.firebaseio.com",
+    "project_id": "wormbizz",
+    "storage_bucket": "wormbizz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883431732206:android:e8a78d3177d03426",
+        "android_client_info": {
+          "package_name": "com.pocketmarket.mined"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883431732206-607jr2988grc9m02opph9drh7i01k7at.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVdbXudtxy-q584HGexOx0o9Q3FFdasGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

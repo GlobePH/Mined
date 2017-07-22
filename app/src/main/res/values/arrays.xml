@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="customer_application">
+        <item>Email</item>
+        <item>Industry</item>
+        <item>Office Industry</item>
+        <item>Office Telephone</item>
+        <item>City</item>
+        <item>Salutation</item>
+        <item>Gender</item>
+        <item>Birthdate</item>
+        <item>Home Owndership</item>
+        <item>Home Owndership Years</item>
+        <item>Home Owndership Salary</item>
+        <item>Mothers Maiden Name</item>
+        <item>LastName</item>
+        <item>FirstName</item>
+        <item>CivilStatus</item>
+        <item>Years in Company</item>
+        <item>Occupation</item>
+        <item>Office City</item>
+        <item>TIN</item>
+        <item>SSS</item>
+        <item>Authorized Relation</item>
+        <item>Authorized Number</item>
+        <item>Car Ownership</item>
+        <item>Citizenship</item>
+        <item>Home Address</item>
+        <item>Authorized Contact Person</item>
+        <item>Employer</item>
+    </string-array>
+</resources>
