@@ -19,6 +19,8 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
+import timber.log.Timber;
+
 /**
  * Created by markanthonypanizales on 22/07/2017.
  */
@@ -303,6 +305,7 @@ public class MainFetchr {
                                File file,
                                String accessToken,
                                String image) throws IOException {
+        Timber.d(".getUrl");
 
         DataOutputStream dos = null;
         String fileName = file.getAbsolutePath();
@@ -365,6 +368,8 @@ public class MainFetchr {
 
             }
 
+            Timber.d("Upload done");
+
             dos.writeBytes(LINE_END);
 
             dos.writeBytes(_HYPENS + _BOUNDARY + _HYPENS);
@@ -407,8 +412,8 @@ public class MainFetchr {
             Log.e(TAG, "Failed to fetch items", e);
             return null;
         } finally {
+            Timber.d("--> finally");
             conn.disconnect();
         }
     }
-
 }

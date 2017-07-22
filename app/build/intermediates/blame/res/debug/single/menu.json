@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/menu/menu_save.xml",
+        "source": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/src/main/res/menu/menu_save.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/menu/popup_menu.xml",
+        "source": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/src/main/res/menu/popup_menu.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/menu/menu.xml",
+        "source": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/menu/test.xml",
+        "source": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/src/main/res/menu/test.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/menu/menu_drawer.xml",
+        "source": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/src/main/res/menu/menu_drawer.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/menu/chat.xml",
+        "source": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/src/main/res/menu/chat.xml"
+    }
+]

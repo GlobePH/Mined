@@ -7,6 +7,8 @@ import com.pocketmarket.mined.di.components.ApplicationComponent;
 import com.pocketmarket.mined.di.components.DaggerApplicationComponent;
 import com.pocketmarket.mined.di.modules.ApplicationModule;
 
+import timber.log.Timber;
+
 /**
  * Created by markanthonypanizales on 22/07/2017.
  */
@@ -21,6 +23,12 @@ public class MainApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        Timber.plant(new Timber.DebugTree() {
+            @Override
+            protected String createStackElementTag(StackTraceElement element) {
+                return super.createStackElementTag(element) + ":" + element.getLineNumber();
+            }
+        });
 
         mApplicationComponent = DaggerApplicationComponent
                 .builder()
@@ -28,6 +36,8 @@ public class MainApplication extends Application {
                 .build();
 
         mApplicationComponent.inject(this);
+
+        Configuration.init(this);
     }
 
     public ApplicationComponent getComponent(){

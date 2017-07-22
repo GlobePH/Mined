@@ -3,6 +3,60 @@
 
     <item
         is-multidex="true"
+        jar="/Users/markanthonypanizales/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.5.0/4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83/okhttp-3.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83">
+        <dex dex="/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.5.0_ee1cfb54793aa05522d3e0dc5ec91e8d688a6dca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markanthonypanizales/.android/build-cache/9eb8a369106c8ee1bc7876329224640752471737/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="32f45bd44a3e7efc235bbfed120029290f5d674a">
+        <dex dex="/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f685e2dbe1a68d0c8a55080a9b5cfa465f52aaae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="54d502475b6b1d2ac7186f73981845fed985acc0">
+        <dex dex="/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9f2f8882fffacb70edd1b18a9ade0c2935ff78f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markanthonypanizales/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-cli-1.2_3a5437726b3a708f88ab778bc7abc5e8a5af8943/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markanthonypanizales/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-2.0.1_e96b453f3485413258d792b1e9380a35f63a8511/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markanthonypanizales/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.11.0_1146012fdabd1111826d2ff022bea0d0f5f4e640/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -12,12 +66,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/markanthonypanizales/.android/build-cache/bf3353f140beb2bbee520439af7b1c3b842ff905/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="7ccabe905400a9519bdbf33145d8393133dcd84f">
-        <dex dex="/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9f2f8882fffacb70edd1b18a9ade0c2935ff78f2/classes.dex" />
+        sha1="79c3d4a8ca3c04c5fd5a4a72d43a29fe6d3667b4">
+        <dex dex="/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8d5d17edb43eb64cac7ab466ce0616213f032e4e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/markanthonypanizales/.android/build-cache/abcda7bbd015ebbcb54cc948ec76e125654ab550/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c74c28a44292b6480afe69ddb2c0974f45393a3a">
+        <dex dex="/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ece3a7b262e0dc48d95589070bde191b33732fd1/classes.dex" />
     </item>
 
 </items>

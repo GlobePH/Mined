@@ -1,6 +1,7 @@
 package com.pocketmarket.mined.adapter;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.database.Cursor;
 import android.os.AsyncTask;
@@ -318,9 +319,21 @@ public class UserPhotoAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
      */
     private class UploadPhotoTask extends AsyncTask<String, Void, UploadPhotoDTO> {
         private String mPhoto;
+        private ProgressDialog progressDialog;
 
         public UploadPhotoTask(String photo) {
             mPhoto = photo;
+        }
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            progressDialog = new ProgressDialog(context);
+            progressDialog.setTitle("Please wait...");
+            progressDialog.setMessage("Processing image");
+            progressDialog.setCancelable(false);
+            progressDialog.show();
+
         }
 
         @Override
@@ -332,6 +345,10 @@ public class UserPhotoAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         @Override
         protected void onPostExecute(UploadPhotoDTO uploadPhotoDTO) {
             Log.i(TAG, "onPostExecute uploadPhotoDTO: " + uploadPhotoDTO);
+
+            if(context!=null) {
+                progressDialog.dismiss();
+            }
 
             if (uploadPhotoDTO == null)
                 return;

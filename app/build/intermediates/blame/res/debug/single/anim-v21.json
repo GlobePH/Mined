@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/984415e43d21dbb5ddd5d9ff800fe86763cbe6b9/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/984415e43d21dbb5ddd5d9ff800fe86763cbe6b9/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim-v21/design_appbar_state_list_animator.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/984415e43d21dbb5ddd5d9ff800fe86763cbe6b9/output/res/anim-v21/design_appbar_state_list_animator.xml"
+    }
+]

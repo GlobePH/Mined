@@ -17,7 +17,6 @@ import com.pocketmarket.mined.controllers.ButtonPlus;
 import com.pocketmarket.mined.fetcher.PayPalPostFetchr;
 import com.pocketmarket.mined.utility.AppApi;
 import com.pocketmarket.mined.widget.CustomFontTextView;
-import com.squareup.picasso.Picasso;
 
 /**
  * Created by markanthonypanizales on 22/07/2017.
@@ -80,9 +79,9 @@ public class PayFragment extends Fragment {
 
         mBuyNow = (ButtonPlus) view.findViewById(R.id.btn_buy);
 
-        if (mType == 2){
+        if (mType == 2) {
             mBuyNow.setText(getResources().getString(R.string.schedule_now));
-        }else{
+        } else {
             mBuyNow.setText(getResources().getString(R.string.pay_now));
         }
 
@@ -95,41 +94,44 @@ public class PayFragment extends Fragment {
 
         mProductAvatar = (ImageView) view.findViewById(R.id.product_avatar);
 
+        /* TODO change this to actually load the image from the image url
         Picasso.with(getContext())
                 .load(mPhoto)
                 .resize(AVATAR_SIZE, AVATAR_SIZE)
                 .centerCrop()
                 .into(mProductAvatar);
+                */
 
 
         return view;
     }
 
-    private void payNow(){
+    private void payNow() {
 
         mBuyNow.setEnabled(false);
-        if (mType == 1){
+        if (mType == 1) {
             paynowPaypal();
-        }else{
+        } else {
             notification();
         }
 
     }
 
-    private void paynowPaypal(){
+    private void paynowPaypal() {
         new PaypalPaymentFetchr().execute(getPaypalPayment());
     }
 
     /**
      * Url for the smart assistant
+     *
      * @return
      */
-    private String getPaypalPayment(){
-        return AppApi.URL_NAME + AppApi.PAYPAL_PAYMENT ;
+    private String getPaypalPayment() {
+        return AppApi.URL_NAME + AppApi.PAYPAL_PAYMENT;
     }
 
     /**
-     *  Asynccall for the assistant
+     * Asynccall for the assistant
      */
     private class PaypalPaymentFetchr extends AsyncTask<String, Void, String> {
 
@@ -157,7 +159,7 @@ public class PayFragment extends Fragment {
 
     }
 
-    private void notification(){
+    private void notification() {
 
     }
 

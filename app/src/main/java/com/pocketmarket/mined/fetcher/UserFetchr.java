@@ -31,7 +31,6 @@ public class UserFetchr extends MainFetchr{
             // parse the string result from the parser
             JsonElement jsonElement = new JsonParser().parse(response);
 
-
             // get the json object response of the string
             JsonObject jsonObject = jsonElement.getAsJsonObject();
             if (jsonObject == null)

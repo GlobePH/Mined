@@ -3,18 +3,25 @@ package com.pocketmarket.mined;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 
-import com.pocketmarket.mined.utility.DrawerLayoutInstaller;
-import com.pocketmarket.mined.utility.Utils;
 import com.pocketmarket.mined.view.GlobalMenuView;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
+import static com.pocketmarket.mined.R.id.drawerLayout;
 
 
 /**
@@ -28,15 +35,20 @@ public abstract class SingleMainFragmentActivity extends AppCompatActivity
 
     private final static String TAG = "SingleMainFragmentActivity";
     public Toolbar mToolbar;
-    private DrawerLayout drawerLayout;
 
-    private GlobalMenuView mMenuView;
+
+    @BindView(drawerLayout)
+    DrawerLayout mDrawerLayout;
+
+    @BindView(R.id.navigation)
+    NavigationView mNavigationView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_mined);
+        ButterKnife.bind(this);
 
         // Disable the Animation
         getWindow().setWindowAnimations(0);
@@ -62,16 +74,18 @@ public abstract class SingleMainFragmentActivity extends AppCompatActivity
     }
 
     private void setupDrawer() {
-        mMenuView = new GlobalMenuView(this, this);
-        mMenuView.setOnHeaderClickListener(this);
-        mMenuView.setOnItemClickListener(this);
-
-        drawerLayout = DrawerLayoutInstaller.from(this)
-                .drawerRoot(R.layout.drawer_root)
-                .drawerLeftView(mMenuView)
-                .drawerLeftWidth(Utils.dpToPx(300))
-                .withNavigationIconToggler(getToolbar())
-                .build();
+        final ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeAsUpIndicator(R.mipmap.ic_menu_white_24dp);
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        // Set on menu item selection listener
+        mNavigationView.setNavigationItemSelectedListener(
+                new NavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(MenuItem menuItem) {
+                        mDrawerLayout.closeDrawers();
+                        return true;
+                    }
+                });
     }
 
     public Toolbar getToolbar() {
@@ -80,7 +94,7 @@ public abstract class SingleMainFragmentActivity extends AppCompatActivity
 
     @Override
     public void onGlobalMenuHeaderClick(final View v, final int channelId) {
-        drawerLayout.closeDrawer(Gravity.LEFT);
+        mDrawerLayout.closeDrawer(Gravity.LEFT);
 
 //        int id = v.getId();
 
@@ -90,7 +104,7 @@ public abstract class SingleMainFragmentActivity extends AppCompatActivity
      *
      */
     public void closeDrawerOnly(){
-        drawerLayout.closeDrawer(Gravity.LEFT);
+        mDrawerLayout.closeDrawer(Gravity.LEFT);
     }
 
     @Override
@@ -100,5 +114,21 @@ public abstract class SingleMainFragmentActivity extends AppCompatActivity
         if (resultCode != Activity.RESULT_OK)
             return;
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        final int itemId = item.getItemId();
+        switch (itemId) {
+            case android.R.id.home:
+                if (mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
+                    mDrawerLayout.closeDrawers();
+                } else {
+                    mDrawerLayout.openDrawer(GravityCompat.START);
+                }
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

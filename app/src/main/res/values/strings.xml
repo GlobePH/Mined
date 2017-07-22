@@ -7,7 +7,7 @@
     <string name="signup_facebook">SIGN UP WITH FACEBOOK</string>
     <string name="logout">Logout</string>
 
-    <string name="app_id">490164524422343</string>
+    <string name="app_id”>-fb_app_id-</string>
 
     <!-- facebook sdk button -->
     <string name="title_facebook_login">Login Facebook</string>

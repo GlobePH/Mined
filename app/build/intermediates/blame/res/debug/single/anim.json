@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/984415e43d21dbb5ddd5d9ff800fe86763cbe6b9/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/fd0300104a766dc26470c7422d73965dacb2e555/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/fd0300104a766dc26470c7422d73965dacb2e555/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/984415e43d21dbb5ddd5d9ff800fe86763cbe6b9/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/fd0300104a766dc26470c7422d73965dacb2e555/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/984415e43d21dbb5ddd5d9ff800fe86763cbe6b9/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/fd0300104a766dc26470c7422d73965dacb2e555/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/984415e43d21dbb5ddd5d9ff800fe86763cbe6b9/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/fd0300104a766dc26470c7422d73965dacb2e555/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/fd0300104a766dc26470c7422d73965dacb2e555/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/fd0300104a766dc26470c7422d73965dacb2e555/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/cycle_2.xml",
+        "source": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/src/main/res/anim/cycle_2.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/984415e43d21dbb5ddd5d9ff800fe86763cbe6b9/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/slide_in_likes_counter.xml",
+        "source": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/src/main/res/anim/slide_in_likes_counter.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/slide_out_likes_counter.xml",
+        "source": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/src/main/res/anim/slide_out_likes_counter.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/984415e43d21dbb5ddd5d9ff800fe86763cbe6b9/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/fd0300104a766dc26470c7422d73965dacb2e555/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/shake_error.xml",
+        "source": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/src/main/res/anim/shake_error.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/fd0300104a766dc26470c7422d73965dacb2e555/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/markanthonypanizales/AndroidStudioProjects/Mined/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/markanthonypanizales/.android/build-cache/fd0300104a766dc26470c7422d73965dacb2e555/output/res/anim/abc_fade_in.xml"
+    }
+]

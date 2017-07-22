@@ -90,10 +90,9 @@ public class BuyFragment extends Fragment {
     }
 
     /**
-     *
      * @return
      */
-    private String getItems(){
+    private String getItems() {
         return AppApi.URL_NAME + AppApi.ITEMS;
     }
 
@@ -150,14 +149,14 @@ public class BuyFragment extends Fragment {
 //
 //    }
 
-    private void initItemsInfo(){
+    private void initItemsInfo() {
         mItemsThread = new ItemsThread<String>(new Handler());
-        mItemsThread.setListener(new ItemsThread.Listener<String>(){
+        mItemsThread.setListener(new ItemsThread.Listener<String>() {
 
             @Override
             public void onItemsThread(String s, ItemsDTO itemsDTO) {
 
-                if (itemsDTO == null){
+                if (itemsDTO == null) {
                     Log.d(TAG, "items is empty....");
                     return;
                 }
@@ -176,14 +175,12 @@ public class BuyFragment extends Fragment {
 
                 mBuyNow.setText(getResources().getString(R.string.buy_now));
 
+
                 Picasso.with(getContext())
                         .load(mPhoto)
                         .resize(AVATAR_SIZE, AVATAR_SIZE)
                         .centerCrop()
                         .into(mProductAvatar);
-
-
-
             }
         });
 

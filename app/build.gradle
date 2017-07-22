@@ -73,6 +73,12 @@ dependencies {
     // butter knife to reduce boiler plate code using reflection
     compile 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+
+    debugCompile 'com.facebook.stetho:stetho:1.4.2'
+    debugCompile 'com.facebook.stetho:stetho-okhttp3:1.4.2'
+
+    compile 'com.jakewharton.timber:timber:4.5.1'
+    compile 'com.squareup.okhttp3:okhttp:3.5.0'
 }
 // firebase use
 apply plugin: 'com.google.gms.google-services'

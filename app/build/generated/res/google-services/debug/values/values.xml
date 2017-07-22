@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">883431732206-607jr2988grc9m02opph9drh7i01k7at.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://wormbizz.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">883431732206</string>
+    <string name="google_api_key" translatable="false">AIzaSyBVdbXudtxy-q584HGexOx0o9Q3FFdasGY</string>
+    <string name="google_app_id" translatable="false">1:883431732206:android:e8a78d3177d03426</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBVdbXudtxy-q584HGexOx0o9Q3FFdasGY</string>
+    <string name="google_storage_bucket" translatable="false">wormbizz.appspot.com</string>
+</resources>

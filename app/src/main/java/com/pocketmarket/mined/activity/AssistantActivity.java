@@ -37,7 +37,6 @@ public class AssistantActivity extends SingleMainFragmentActivity {
         startingActivity.startActivity(intent);
     }
 
-
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         switch (position) {
@@ -49,7 +48,6 @@ public class AssistantActivity extends SingleMainFragmentActivity {
             default: // assistant
                 Log.d(TAG, "feed....");
                 closeDrawerOnly();
-
                 String roomId = null;
                 String roomName = null;
 
@@ -59,23 +57,15 @@ public class AssistantActivity extends SingleMainFragmentActivity {
                     roomId = item.roomId;
                     roomName = item.label;
                 }
-
                 showMined(roomId, roomName);
-
                 break;
-
         }
-
     }
 
-    /**
-     *
-     */
     private void showMined(String roomId, String roomName) {
         Intent intent = new Intent(this, MinedActivity.class);
         intent.putExtra(ChatActivity.EXTRA_ROOM_NAME, roomName);
         intent.putExtra(ChatActivity.EXTRA_ROOM_ID, roomId);
         startActivity(intent);
     }
-
 }
