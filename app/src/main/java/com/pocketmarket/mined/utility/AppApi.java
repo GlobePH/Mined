@@ -17,10 +17,8 @@ public class AppApi {
 
     public static final String TAG = "AppApi";
 
-    //public static final String URL_NAME = "http://192.168.167.232:8080/MinedRest";
-    // ngrok link
-    public static final String URL_NAME = "http://f8042653.ngrok.io/MinedRest";
-
+    public static final String URL_NAME = "http://192.168.161.129:8080/MinedRest";
+    
     // URL for the photos
     public final static String URL_PHOTOS_URL = "http://kinvo-staging.s3.amazonaws.com/uploads/photo/image/";
 
